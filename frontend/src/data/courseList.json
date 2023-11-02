@@ -1,0 +1,92 @@
+{
+    "computer_science" : [
+        { 
+    "name" : "Google Data Analytics", 
+    "video_thumbnail" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/bd/69fc60bd454b1485955c680232bd95/082421_Karrim0066-1.png?auto=format%2Ccompress&dpr=2&w=150&h=150&fit=fill&bg=FFF&q=25" , 
+    "provider" : { 
+      "name" : "Google" , 
+      "image"  : "https://www.coursera.org/professional-certificates/google-data-analytics"
+     }, 
+     "trail_duration_unit": "5" , 
+     "trial_duration" : "1",  
+     "rating" : "4.5" , 
+     "level" : "intermediate", 
+     "price" : "2999" , 
+     "certificate": "After completion"
+  } , 
+    { 
+    "name" : "Google Advanced Data Analytics", 
+    "video_thumbnail" : "https://www.coursera.org/professional-certificates/google-advanced-data-analytics" , 
+    "provider" : { 
+      "name" : "Google" , 
+      "image"  : "https://www.coursera.org/professional-certificates/google-data-analytics"
+     }, 
+     "trail_duration_unit": "6" , 
+     "trial_duration" : "1",  
+     "rating" : "3.3" , 
+     "level" : "Advanced", 
+     "price" : "4499" , 
+     "certificate": "After completion"
+  } 
+    ], 
+    "python" : [
+        { 
+    "name" : "Django for Developer", 
+    "video_thumbnail" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ee/cf30c472c046578f8ada0da1c24111/Square-Django-icon.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50" , 
+    "provider" : { 
+      "name" : "My python" , 
+      "image"  : "https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png"
+     }, 
+     "trail_duration_unit": "8" , 
+     "trial_duration" : "1",  
+     "rating" : "4" , 
+     "level" : "beginner", 
+     "price" : "1999" , 
+     "certificate": "Not available"
+  } , 
+    { 
+    "name" : "Advanced python", 
+    "video_thumbnail" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/44/2959b0502911e5851f058ad6ebf936/pythondata_thumbnail_1x1.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50" , 
+    "provider" : { 
+      "name" : "Google" , 
+      "image"  : "https://www.coursera.org/professional-certificates/google-data-analytics"
+     }, 
+     "trail_duration_unit": "6" , 
+     "trial_duration" : "1",  
+     "rating" : "3.3" , 
+     "level" : "Advanced", 
+     "price" : "4499" , 
+     "certificate": "After completion"
+  } 
+    ] , 
+    "javascript" : [
+    { 
+    "name" : "Front-End Developer course", 
+    "video_thumbnail" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/18/2aa16c328a457cb910aa933bf2cd87/Professional-Certificate-Cloud-App.jpg?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50" , 
+    "provider" : { 
+      "name" : "Meta" , 
+      "image"  : "http://coursera-university-assets.s3.amazonaws.com/73/e03b13a8e44df9b19eb279e5506396/360-x-360.png"
+     }, 
+     "trail_duration_unit": "8" , 
+     "trial_duration" : "1",  
+     "rating" : "4" , 
+     "level" : "intermediate", 
+     "price" : "1999" , 
+     "certificate": "Not available"
+  } , 
+    { 
+    "name" : "Front-End development for beginner", 
+    "video_thumbnail" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/0d/e2553478254970977ae6126a54d7af/GettyImages-172778145_600x600.png?auto=format%2Ccompress%2C%20enhance&dpr=2&w=265&h=216&fit=crop&q=50" , 
+    "provider" : { 
+      "name" : "Google" , 
+      "image"  : "https://coursera-university-assets.s3.amazonaws.com/66/4d1f6067b511e599c247e28e57110c/Logo-B-for-Coursera.png"
+     }, 
+     "trail_duration_unit": "6" , 
+     "trial_duration" : "1",  
+     "rating" : "3.3" , 
+     "level" : "Advanced", 
+     "price" : "4499" , 
+     "certificate": "After completion"
+  } 
+    ]
+}

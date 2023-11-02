@@ -1,0 +1,36 @@
+.landingPageCourseOutlet_container{
+    padding-left: 0.5em ;
+    padding-right: 0.5em;
+    margin-top: 2em;
+}
+
+.landingPageCourseOutlet_active{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+
+}
+.landingPageCourseOutlet_active>span::before{
+    content: '"';
+}
+.landingPageCourseOutlet_active>span::after{
+    content: '"';
+}
+.landingPageCourseOutlet_active>span{
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:800px) {
+    .landingPageCourseOutlet_container{
+        padding-left: 1.2em;
+        padding-right: 1em;
+    }
+    .landingPageCourseOutlet_active{
+        padding-left: 1em;
+        margin-top: 2.5em;
+    }
+
+    
+}

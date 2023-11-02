@@ -1,0 +1,90 @@
+/* font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&family=Exo+2:ital@1&family=Pacifico&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+
+* , *::after , *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    vertical-align: baseline;
+    outline: none;      
+    font-size: 100;
+    --blue: #6495ed;
+    --white: #fff;
+    --gray: #a9a5a55f;
+    --lightBlack:#2626265f;
+    --orange:#fa4616;
+    --lightgray:#cccaca5f;
+    --skyBlue: #dbeef6;
+    --darkBlue: #2a57ab; 
+    --darkGray : rgba(0,0,0,0.7)
+}
+
+:root{
+    --clr-txt: #484848;
+    --clr-primary: #067e0a;
+    --clr-primary-dark: #065008;
+    --clr-accent: #764981;
+    --clr-accent-dark: #4f2a59;
+
+    --ff-logo: 'Dancing Script', cursive , sans-serif;
+    --ff-serif:  serif;
+    --ff-title: 'Exo 2' , sans-serif;
+
+    background-color: #f5f5f5;
+    box-sizing:  border-box;
+}
+
+body{
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    font-family:-apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans',    'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif ;
+  
+}
+
+nav{
+    padding-top: 3.5em;
+}
+
+/* img{
+    display: block;
+    max-width: 100%;
+} */
+
+
+section {
+    padding: 3em 1em;
+}
+
+/* typography */
+html{
+    font-family: var(--ff-serif);
+    color: var(--clr-txt);
+    font-size:1.25rem;
+}
+h1 , h2 , h3 ,h4 , p , ul, li , html , body {
+    margin: 0;
+    padding:0;
+}
+
+p:last-child{
+    margin-bottom: 0em;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.object-fill {
+    object-fit: fill;
+    width: 100%;
+}

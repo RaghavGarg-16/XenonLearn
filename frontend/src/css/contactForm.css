@@ -1,0 +1,12 @@
+.contact-form .form-group{
+        margin-bottom: 20px;
+}
+
+.contact-form input , textarea{
+    /* border-color:  (0, 0%, 100%, 0.1); */
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid (0, 0%, 100%, 0.1);
+    /* border: none; */
+    border-radius: 0.5rem;
+}

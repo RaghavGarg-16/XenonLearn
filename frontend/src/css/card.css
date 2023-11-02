@@ -1,0 +1,136 @@
+.card2_container {
+    min-height: 250px;
+    border-bottom: 1px solid;
+    display: grid;
+    margin: auto;
+    padding:1em 0.5em ;
+    grid-template-columns: repeat(11 , 1fr);
+    /* justify-items:; */
+    text-align: left ; 
+    
+  }
+  
+  .card2_container:first-of-type{
+    border-top: 1px solid;
+  }
+  
+  
+  .card2_img {
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+  
+  }
+  
+  
+  
+  .card2_other_info {
+    grid-column: 1/11;
+  }
+  
+  .card2_main_info {
+    /* grid-column: 1/6; */
+    grid-column: 1/11;
+    grid-row: 1/3;
+  }
+  
+  .card2_course_img{
+    width: 85px ;
+    justify-self: end;
+  }
+  
+  .card2_provider_logo{
+    width: 1.3em;
+    margin-right: 0.3em;
+  }
+  
+  .card2_provider_name{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic ;
+    color: var(--darkGray);
+    text-transform: capitalize;
+  }
+  .card2_course_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.2em;
+  
+  }
+  .card2_certification_detail{
+    background-color: var(--gray);
+    padding: 0.3em 0.6em;
+    border-radius: 2px;
+  }
+  .card2_trail_info{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 0.3em;
+  }
+  
+  .card2_rating_star{
+    
+    color: var(--orange);
+  
+  }
+  
+  .card2_rating_container{
+    display: flex;
+  }
+  
+  .card2_rating{
+    font-weight: 700;
+    margin-left: 0.8em;
+  }
+  
+  .card2_rating_seprator{
+    border: 1.3px solid;
+    margin-left: 0.75em;
+    margin-right:0.75em;
+  }
+  
+  .card2_course_level{
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  @media only screen and (min-width: 850px) {
+    .card2_container{
+      grid-auto-columns: 210px;
+      column-gap: 1em;
+      padding: 1em;
+      grid-template-columns: repeat(10, 1fr);
+    }
+    .card2_img {
+      grid-column: 1/4;
+      grid-row: 1/4;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .card2_other_info {
+      grid-row: 3/4;
+      grid-column: 4/10;
+    }
+  
+    .card2_main_info {
+      grid-row: 1/3;
+      grid-column: 4/10;
+    }
+    .card2_course_img{
+      width: 100%;
+      max-width: 220px;
+      border-radius: 2px;
+      box-shadow:  1.4px 2.3px 30px rgba(0, 0, 0, 0.3)
+    }
+    .card2_course_title{
+      font-size: 1.4rem;
+    }
+  }
+  

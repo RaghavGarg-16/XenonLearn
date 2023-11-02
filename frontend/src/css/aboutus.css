@@ -1,0 +1,70 @@
+.aboutus_body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 7em;
+    margin-bottom: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.aboutus_body_info{
+    grid-column: span 4;
+}
+.aboutus_media{
+    display: none;
+}
+.aboutus_media>img{
+    /* width: 100%; */
+    width: 100%;
+}
+
+.aboutus_heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.aboutus_body_content{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+blockquote::after{
+    content: '"';
+}
+blockquote::before{
+    content: '"';
+}
+blockquote{
+    font-style: italic;
+    margin-top: 1.3em;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.aboutus_vision{
+    background: url('https://girlpowertalk.com/wp-content/uploads/2022/12/Rectangle-153-min_Easy-Resize.com_.jpg?id=14783');
+    padding-left: 1em;
+    padding-right:1em ;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    
+}
+
+@media only screen and (min-width:800px){
+    .aboutus_body_info{
+        grid-column: span 3;
+    }
+    .aboutus_media{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutus_body{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .aboutus_vision{
+        padding-left: 2.5em;
+        padding-right: 2em;
+    }
+}

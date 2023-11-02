@@ -1,0 +1,45 @@
+.landingPageKeyword_subHeading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--darkGray);
+    margin-bottom: 1em;
+
+}
+
+.landingPageKeyword_main{
+    margin-top: 3.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    padding-bottom: 6em;
+}
+
+.landingPageKeyword_keys_container{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize ;
+}
+
+.landingPageKeyword_keys{
+    padding: 11px 26px;
+    margin-right: 12px;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.07);
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition-duration: 200ms;
+    border: transparent;
+}
+.landingPageKeyword_keys:hover{
+    background: rgba(0,0,0,0.3);
+    text-decoration: underline;
+    color: var(--darkBlue);
+    border: 1px solid rgba(0,0,0,0.45) ;
+}
+
+.landingPageKeyword_active{
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.45);
+}

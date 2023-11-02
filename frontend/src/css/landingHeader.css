@@ -1,0 +1,68 @@
+.landing_header_container{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 4.5em;
+    z-index: 100;
+
+}
+.landing_brand{
+    width: 4.5rem;
+}
+.landing_nav_top_menu{
+    display: flex;
+    align-self: center;
+    padding-right:0.5em;
+}
+.landing_nav_top_menu>div{
+    margin-left: 3px;
+}
+
+.landing_header{
+    justify-content: space-between;
+}
+
+.landing_join_btn  {
+    min-height: 43px;
+    padding: 14px 16px;
+    border-radius: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color:  rgba(13, 13, 13, 0.8) ;
+}
+.landing_join_btn:hover{
+    background-color: rgba(0, 0, 0, 0.04) !important ;
+    cursor: pointer !important;
+    transition-duration: 200ms;
+    text-decoration: underline;
+} 
+.landing_top_partition{
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 30px;
+    margin-left: 2px;
+    margin-right:10px;
+    position:relative;
+}
+.landing_top_signin{
+    min-height: 43px;
+    padding: 13px 16px;
+    border-radius: 24px;
+    font-weight: 550;
+    border: 1.9px solid #004182;
+    color: #064d93;
+    font-family: Sans-serif , Tahoma,Verdana, sans-serif;
+}
+.landing_top_signin:hover{
+    background-color: #d9ebfd;
+    transition-duration: 150ms;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 750px) {
+    
+}
